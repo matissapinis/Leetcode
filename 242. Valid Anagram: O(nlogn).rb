@@ -5,7 +5,7 @@
 # @param {String} t
 # @return {Boolean}
 
-# Trivial solution using built-in sorting O(s log s + t log t):
+# Trivial solution using built-in sorting in O(s log s + t log t):
 def is_anagram(s, t)
     s_sorted = s.chars.sort.join
     t_sorted = t.chars.sort.join
