@@ -2,7 +2,7 @@
 # @param {Integer} target
 # @return {Integer[]}
 
-# Trivial O(n^2) algorithm timed out, so here's a O(n) hashmap solution suggested by ChatGPT (GPT-4):
+# Brute force O(n^2) algorithm timed out, so here's a O(n) hashmap solution suggested by ChatGPT (GPT-4):
 def two_sum(nums, target)
     # Initialize an empty hash map. This will store each number in the array as a key,
     # and the corresponding value will be the index of that number in the array.
