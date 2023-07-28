@@ -21,7 +21,7 @@ class Solution:
                 # Change the area of largest container if new container is largest:
                 max_area = max(current_area, max_area)
         
-        # Return the area of the largest container:
+        # Return area of largest water container:
         return max_area
 
 
