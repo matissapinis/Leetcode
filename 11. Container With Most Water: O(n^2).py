@@ -8,9 +8,9 @@ class Solution:
 
         # Iterate through all pairs of container widths and heights:
         for i in range(len(height)):
-            for j in range(len(height)):
+            for j in range(i + 1, len(height)):
                 # Water container width is difference between indices:
-                current_width = i - j
+                current_width = j - i
                 
                 # Water container height is the smallest of two heights:
                 current_height = min(height[i], height[j])
