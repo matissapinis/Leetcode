@@ -13,7 +13,7 @@ Doing Leetcode problems (mostly in Python and also Ruby):
 * 49\. Group Anagrams: https://leetcode.com/problems/group-anagrams
 * 347\. Top K Frequent Elements: https://leetcode.com/problems/top-k-frequent-elements
 * 128\. Longest Consecutive Sequence: https://leetcode.com/problems/longest-consecutive-sequence
-* 36. Valid Sudoku: https://leetcode.com/problems/valid-sudoku
+* 36\. Valid Sudoku: https://leetcode.com/problems/valid-sudoku
 
 ## Two Pointers:
 ### Easy:
