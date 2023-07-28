@@ -3,6 +3,8 @@
 
 # @param {String[]} strs
 # @return {String[][]}
+
+# O(m*n) algorithm for grouping anagrams using hashmaps (m – number of words, n – word max length):
 def group_anagrams(strs)
     map = {}
 
