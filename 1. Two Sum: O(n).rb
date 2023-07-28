@@ -5,7 +5,7 @@
 # @param {Integer} target
 # @return {Integer[]}
 
-# Brute force O(n^2) algorithm timed out, so here's a O(n) hashmap solution:
+# O(n) algorithm for indices of two elements summing to target using hashmap:
 def two_sum(nums, target)
     # Initialize empty hashmap to store each number as key with value as index plus one of that number:
     map = {}
