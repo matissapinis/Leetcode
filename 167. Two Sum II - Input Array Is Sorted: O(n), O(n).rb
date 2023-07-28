@@ -5,7 +5,7 @@
 # @param {Integer} target
 # @return {Integer[]}
 
-# Same solution as 1. Two Sum, only index is incremented:
+# Same solution as 1. Two Sum, only index is incremented, but O(n) space:
 def two_sum(numbers, target)
     # Initialize empty hashmap to store each number as key with value as index plus one of that number:
     map = {}
