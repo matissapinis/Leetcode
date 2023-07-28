@@ -4,12 +4,16 @@
 # @param {String[]} strs
 # @return {String[][]}
 
-# 1. Create a hashmap with key as sorted string.
-# 2. Add words to hashmap if word is in hashmap.
+# Trivial O(m*nlogn) algorithm for grouping anagrams using built-in sorting and hashmap (m – number of words, n – word max length):
+=begin
+1. Create a hashmap with key as sorted string.
+2. Add words to hashmap if word is in hashmap.
+=end
 def group_anagrams(strs)
     map = {}
 
     strs.each do |str|
+        # Sort each string alphabetically in O(nlogn):
         sorted_string = str.chars.sort.join
 
         # Appends item to array at sorted string key (creates empty array if map doesn't exist):
