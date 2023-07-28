@@ -1,5 +1,5 @@
 # Leetcode
-Doing Leetcode problems (mostly in Python, maybe in Ruby):
+Doing Leetcode problems (mostly in Python and also Ruby):
 ### https://neetcode.io/roadmap
 
 ## Arrays & Hashing:
