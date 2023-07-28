@@ -4,7 +4,7 @@
 # Trivial O(n^2) algorithm for largest water container area in array (exceeds time limit):
 class Solution:
     def maxArea(self, height: List[int]) -> int:
-        max_area = 0 * 0
+        max_area = 0
 
         # Iterate through all pairs of container widths and heights:
         for i in range(len(height)):
