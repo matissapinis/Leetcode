@@ -19,4 +19,4 @@ Doing Leetcode problems (mostly in Python, maybe in Ruby):
 * 125\. Valid Palindrome: https://leetcode.com/problems/valid-palindrome
 
 ### Medium:
-* 167. Two Sum II - Input Array Is Sorted: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted
+* 167\. Two Sum II - Input Array Is Sorted: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted
