@@ -1,6 +1,7 @@
 # 347. Top K Frequent Elements
 # https://leetcode.com/problems/top-k-frequent-elements/description/
 
+# O(nlogn) algorithm for k-predominant numbers in array using built-in sorting on hashmap:
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         map = {}
@@ -14,5 +15,4 @@ class Solution:
         
         # Returns array of keys from these top k key-value pairs:
         keys = [item[0] for item in sorted_items]
-        
         return keys
