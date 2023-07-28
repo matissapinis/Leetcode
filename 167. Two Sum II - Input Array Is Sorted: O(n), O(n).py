@@ -1,7 +1,7 @@
 # 167. Two Sum II - Input Array Is Sorted
 # https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 
-# Same solution as 1. Two Sum, only index is incremented:
+# Same solution as 1. Two Sum, only index is incremented, but O(n) space:
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         # Initialize empty dictionary to store each number as key with value as index plus one of that number:
