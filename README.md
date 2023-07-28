@@ -24,4 +24,8 @@ Doing Leetcode problems (mostly in Python and also Ruby):
 
 ## Binary Search:
 ### Easy:
-* 704\. Binary Search: https://leetcode.com/problems/binary-search 
+* 704\. Binary Search: https://leetcode.com/problems/binary-search
+
+### Medium:
+* 74\. Search a 2D Matrix: https://leetcode.com/problems/search-a-2d-matrix
+
