@@ -24,5 +24,5 @@ class Solution:
             else:
                 R -= 1
 
-        # Return the area of the largest water container:
+        # Return area of largest water container:
         return max_area
