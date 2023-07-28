@@ -1,6 +1,7 @@
 # Leetcode
 Doing Leetcode problems (mostly in Python and also Ruby):
-### https://neetcode.io/roadmap
+
+# 1. https://neetcode.io/roadmap
 
 ## Arrays & Hashing:
 ### Easy:
@@ -29,3 +30,5 @@ Doing Leetcode problems (mostly in Python and also Ruby):
 ### Medium:
 * 74\. Search a 2D Matrix: https://leetcode.com/problems/search-a-2d-matrix
 
+# 2. https://leetcode.com/studyplan/top-interview-150/
+* 169\. Majority Element: https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
