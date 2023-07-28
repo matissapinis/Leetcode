@@ -14,7 +14,7 @@ class Solution:
 
             # Check if complement is in dictionary (if yes, we have found two numbers that add up to target):
             if complement in map:
-                # Return indices of the two numbers ('map[complement]' – complement index, 'i' – current number):
+                # Return indices of the two numbers ('map[complement]' – complement index, 'i' – current number index):
                 return [map[complement], i]
 
             # If complement is not in dictionary, add current number and its index (added by one):
