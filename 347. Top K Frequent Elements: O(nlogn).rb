@@ -4,6 +4,8 @@
 # @param {Integer[]} nums
 # @param {Integer} k
 # @return {Integer[]}
+
+# O(nlogn) algorithm for k-predominant numbers in array using built-in sorting on hashmap:
 def top_k_frequent(nums, k)
     map = {}
 
@@ -18,6 +20,5 @@ def top_k_frequent(nums, k)
 
     # Returns array of keys from these top k key-value pairs:
     keys = sorted_items.map { |item| item[0] }
-    
     keys
 end
