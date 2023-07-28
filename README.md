@@ -2,6 +2,7 @@
 Doing Leetcode problems (mostly in Python and also Ruby):
 
 # 1. https://neetcode.io/roadmap
+* Total: 12
 
 ## Arrays & Hashing:
 ### Easy:
