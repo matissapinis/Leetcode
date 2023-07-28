@@ -9,10 +9,10 @@ class Solution:
 
         # Go through the sorted array until indices meet in the middle:
         while L < R:
-            # Sum the smaller left number with bigger right number:
+            # Sum the smaller left number with larger right number:
             current_sum = numbers[L] + numbers[R]
 
-            # If two-sum is smaller than target, try next left number bigger:
+            # If two-sum is smaller than target, try next left number larger:
             if current_sum < target:
                 L += 1
             # If two-sum is larger than target, try next right number smaller:
