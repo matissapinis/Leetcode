@@ -10,9 +10,9 @@ def max_area(height)
 
     # Iterate through all pairs of container widths and heights:
     for i in 0...height.length do
-        for j in 0...height.length do
+        for j in i + 1...height.length do
             # Water container width is difference between indices:
-            current_width = i - j
+            current_width = j - i
 
             # Water container height is the smallest of two heights:
             current_height = [height[i], height[j]].min
