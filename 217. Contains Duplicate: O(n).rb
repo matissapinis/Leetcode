@@ -4,7 +4,7 @@
 # @param {Integer[]} nums
 # @return {Boolean}
 
-# Build a hashmap of each number count in O(n):
+# O(n) algorithm for duplicates in array with hashmap of each number count:
 def contains_duplicate(nums)
     map = {}
 
@@ -15,6 +15,7 @@ def contains_duplicate(nums)
         # Increase number count by one (make map if doesn't exist):
         map[num] = map.fetch(num, 0) + 1
     end
-    
+
+    # Return false if there were no duplicates found:
     false
 end
