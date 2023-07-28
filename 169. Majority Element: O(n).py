@@ -13,5 +13,5 @@ class Solution:
         # Gets the key with the largest value from the map:
         max_element = max(map.items(), key=lambda x: x[1])[0]
         
-        # Returns the majority element with largest count):
+        # Returns the majority element with largest count:
         return max_element
