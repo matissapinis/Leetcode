@@ -1,6 +1,7 @@
 # 49. Group Anagrams
 # https://leetcode.com/problems/group-anagrams/description/
 
+# O(m*n) algorithm for grouping anagrams using hashmaps (m – number of words, n – word max length):
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         map = {}
