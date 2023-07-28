@@ -7,7 +7,7 @@
 
 # O(n) algorithm for indices of two elements summing to target using hashmap:
 def two_sum(nums, target)
-    # Initialize empty hashmap to store each number as key with value as index plus one of that number:
+    # Initialize empty hashmap to store each number as key with value as index of that number:
     map = {}
 
     # Iterate through each element in the list, along with its index:
