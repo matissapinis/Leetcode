@@ -4,7 +4,7 @@
 # @param {Integer[]} nums
 # @return {Integer}
 
-# Solution in O(n) using set data structure:
+# Solution in O(n) for length of longest consecutive sequence in array using set data structure:
 def longest_consecutive(nums)
     # Convert the array to a set to enable O(1) lookups:
     nums_set = nums.to_set
@@ -20,9 +20,11 @@ def longest_consecutive(nums)
                 current_length += 1
             end
 
+            # Change the length of longest sequence if new sequence is longest: 
             max_length = [current_length, max_length].max
         end
     end
 
+    # Return the length of the longest consecutive sequence:
     return max_length
 end
