@@ -10,8 +10,8 @@ class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         map = {}
 
-        # Sort each string alphabetically in O(nlogn):
         for i in range(len(strs)):
+            # Sort each string alphabetically in O(nlogn):
             sorted_string = ''.join(sorted(strs[i]))
 
             # Appends item to array at sorted string key (creates empty array if map doesn't exist):
