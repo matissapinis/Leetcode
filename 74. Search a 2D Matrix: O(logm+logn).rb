@@ -34,6 +34,8 @@ def search_matrix(matrix, target)
 
     # Define the column initial bounds to binary search over found row:
     l, r = 0, n - 1
+
+    # Binary search for the column that contains target in found row:
     while l <= r
         # Take the middle column of current binary search interval, dividing it in halves:
         m = l + (r - l) / 2
