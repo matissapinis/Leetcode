@@ -43,3 +43,6 @@ class Solution:
             # Return true if target is found:
             else:
                 return True
+
+        # Binary search doesn't find target:
+        return False
