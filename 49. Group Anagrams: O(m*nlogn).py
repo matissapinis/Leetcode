@@ -1,6 +1,7 @@
 # 49. Group Anagrams
 # https://leetcode.com/problems/group-anagrams/description/
 
+# Trivial O(m*nlogn) algorithm for grouping anagrams using built-in sorting and hashmap (m – number of words, n – word max length):
 """
 1. Create a hashmap with key as sorted string.
 2. Add words to hashmap if word is in hashmap.
@@ -9,6 +10,7 @@ class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         map = {}
 
+        # Sort each string alphabetically in O(nlogn):
         for i in range(len(strs)):
             sorted_string = ''.join(sorted(strs[i]))
 
