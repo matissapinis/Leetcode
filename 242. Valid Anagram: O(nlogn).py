@@ -8,5 +8,5 @@ class Solution:
         s_sorted = ''.join(sorted(s))
         t_sorted = ''.join(sorted(t))
 
-        # Is anagram if sorted string are equal:
+        # Is anagram if sorted strings are equal:
         return s_sorted == t_sorted
