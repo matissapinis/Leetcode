@@ -4,7 +4,7 @@
 # O(n) algorithm for indices of two elements summing to target using hashmap:
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        # Initialize empty dictionary to store each number as key with value as index plus one of that number:
+        # Initialize empty dictionary to store each number as key with value as index:
         map = {}
 
         # Iterate through each element in the list, along with its index:
