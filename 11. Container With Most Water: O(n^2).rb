@@ -4,7 +4,7 @@
 # @param {Integer[]} height
 # @return {Integer}
 
-# Trivial O(n^2) algorithm for largest water container area in array (exceeds time limit):
+# Brute force O(n^2) algorithm for largest water container area in array (exceeds time limit):
 def max_area(height)
     max_area = 0
 
