@@ -1,7 +1,7 @@
 # 128. Longest Consecutive Sequence
 # https://leetcode.com/problems/longest-consecutive-sequence/description/
 
-# Solution in O(n) using set data structure:
+# Solution in O(n) for length of longest consecutive sequence in array using set data structure:
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         # Convert the input list to a set to enable O(1) lookups:
@@ -17,6 +17,8 @@ class Solution:
                 while (nums[i] + current_length) in nums_set:
                     current_length += 1
 
+                # Change the longest sequence if new sequence is longest:
                 max_length = max(current_length, max_length)
 
+        # Return the length of the longest consecutive sequence:
         return max_length
