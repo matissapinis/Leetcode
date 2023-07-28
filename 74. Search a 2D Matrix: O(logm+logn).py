@@ -30,6 +30,8 @@ class Solution:
 
         # Define the column initial bounds to binary search over found row:
         L, R = 0, n - 1
+
+        # Binary search for the column that contains target in found row:
         while L <= R:
             # Take the middle column of current binary search interval, dividing it in halves:
             M = L + (R - L) // 2
