@@ -4,7 +4,7 @@
 # O(n^2) algorithm for checking 9x9 matrix each row, column and 3x3 submatrix has no duplicates (n = 9):
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        # Build a hashset for rows, columns, submatrices:
+        # Build a hashset for rows, columns, square submatrices:
         rows = collections.defaultdict(set)
         columns = collections.defaultdict(set)
         squares = collections.defaultdict(set)
