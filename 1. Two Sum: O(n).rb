@@ -17,7 +17,7 @@ def two_sum(nums, target)
 
         # Check if complement is in dictionary (if yes, we have found two numbers that add up to target):
         if map.key?(complement)
-            # Return indices of the two numbers ('map[complement]' – complement index, 'i + 1' – current number):
+            # Return indices of the two numbers ('map[complement]' – complement index, 'i + 1' – current number index):
             return [map[complement], i]
         end
 
