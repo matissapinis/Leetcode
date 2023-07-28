@@ -1,7 +1,7 @@
 # 11. Container With Most Water
 # https://leetcode.com/problems/container-with-most-water/description/
 
-# Trivial O(n^2) algorithm for largest water container area in array (exceeds time limit):
+# Brute force O(n^2) algorithm for largest water container area in array (exceeds time limit):
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         max_area = 0
