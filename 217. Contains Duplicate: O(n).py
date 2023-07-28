@@ -1,7 +1,7 @@
 # 217. Contains Duplicate
 # https://leetcode.com/problems/contains-duplicate/description/
 
-# Build a hashmap of each number count in O(n):
+# O(n) algorithm for duplicates in array with hashmap of each number count:
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         map = {}
@@ -13,5 +13,6 @@ class Solution:
 
             # Increase number count by one (make map if doesn't exist):
             map[nums[i]] = map.get(nums[i], 0) + 1
-        
+
+        # Return false if there were no duplicates found:
         return False
