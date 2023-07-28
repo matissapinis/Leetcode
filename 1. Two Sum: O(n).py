@@ -1,7 +1,7 @@
 # 1. Two Sum
 # https://leetcode.com/problems/two-sum/description/
 
-# Translated O(n) hashmap Ruby solution to Python:
+# O(n) algorithm for indices of two elements summing to target using hashmap:
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # Initialize empty dictionary to store each number as key with value as index plus one of that number:
