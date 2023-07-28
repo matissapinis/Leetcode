@@ -9,10 +9,10 @@ def two_sum(numbers, target)
 
     # Go through the sorted array until indices meet in the middle:
     while idx_L < idx_R
-        # Sum the smaller left number with bigger right number:
+        # Sum the smaller left number with larger right number:
         current_sum = numbers[idx_L] + numbers[idx_R]
 
-        # If two-sum is smaller than target, try next left number bigger:
+        # If two-sum is smaller than target, try next left number larger:
         if current_sum < target
             idx_L += 1
         # If two-sum is larger than target, try next right number smaller:
