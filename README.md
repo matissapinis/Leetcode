@@ -14,10 +14,14 @@ Doing Leetcode problems (mostly in Python and also Ruby):
 * 128\. Longest Consecutive Sequence: https://leetcode.com/problems/longest-consecutive-sequence
 
 
-## Two Pointers
+## Two Pointers:
 ### Easy:
 * 125\. Valid Palindrome: https://leetcode.com/problems/valid-palindrome
 
 ### Medium:
 * 167\. Two Sum II - Input Array Is Sorted: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted
 * 11\. Container With Most Water: https://leetcode.com/problems/container-with-most-water
+
+## Binary Search:
+### Easy:
+* 704\. Binary Search: https://leetcode.com/problems/binary-search 
