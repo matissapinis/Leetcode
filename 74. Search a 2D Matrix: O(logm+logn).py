@@ -1,3 +1,6 @@
+# 74. Search a 2D Matrix
+# https://leetcode.com/problems/search-a-2d-matrix/description/
+
 # O(logm + logn) algorithm to binary search a 2D sorted integer matrix (note that logm + logn = log(m*n)):
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
