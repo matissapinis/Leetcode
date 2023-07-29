@@ -6,7 +6,7 @@
 
 # O(n^2) algorithm for unique triples that sum to 0 using sorting and two indices:
 def three_sum(nums)
-    # Define array of triples that will output answer:
+    # Define array of triples that will output as answer:
     result = []
 
     # Sort number array in O(nlogn):
