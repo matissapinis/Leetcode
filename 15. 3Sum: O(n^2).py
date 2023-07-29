@@ -24,10 +24,10 @@ class Solution:
                 # Save candidate three-sum for nums[i]:
                 three_sum = nums[i] + nums[L] + nums[R]
 
-                # If three-sum is smaller than zero, try next left number:
+                # If three-sum is smaller than zero, try next number to the right of left index:
                 if three_sum < 0:
                     L += 1
-                # If three-sum is larger than zero, try next right number:
+                # If three-sum is larger than zero, try next number to the left of right index:
                 elif three_sum > 0:
                     R -= 1
                 else:
