@@ -25,10 +25,10 @@ def three_sum(nums)
             # Save candidate three-sum for nums[i]:
             three_sum = num + nums[l] + nums[r]
 
-            # If three-sum is smaller than zero, try next left number larger:
+            # If three-sum is smaller than zero, try next number to the right of left index:
             if three_sum < 0
                 l += 1
-            # If three-sum is larger than zero, try next right number smaller:
+            # If three-sum is larger than zero, try next number to the left of right index:
             elsif three_sum > 0
                 r -= 1
             else
