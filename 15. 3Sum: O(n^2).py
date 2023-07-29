@@ -21,7 +21,7 @@ class Solution:
             
             # Go through the number array until indices meet in the middle: 
             while L < R:
-                # Save candidate threesum for nums[i]:
+                # Save candidate three-sum for nums[i]:
                 three_sum = nums[i] + nums[L] + nums[R]
 
                 # If three-sum is smaller than zero, try next left number larger:
