@@ -34,3 +34,4 @@ Doing Leetcode problems (mostly in Python and also Ruby):
 
 # 2. https://leetcode.com/studyplan/top-interview-150/
 * 169\. Majority Element: https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
+* 189\. Rotate Array: https://leetcode.com/problems/rotate-array/description/?envType=study-plan-v2&envId=top-interview-150
