@@ -22,7 +22,7 @@ def three_sum(nums)
         
         # Go through the number array until indices meet in the middle: 
         while l < r
-            # Save candidate threesum for nums[i]:
+            # Save candidate three-sum for nums[i]:
             three_sum = num + nums[l] + nums[r]
 
             # If three-sum is smaller than zero, try next left number larger:
