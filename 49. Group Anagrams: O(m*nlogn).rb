@@ -16,11 +16,11 @@ def group_anagrams(strs)
         # Sort each string alphabetically in O(nlogn):
         sorted_string = str.chars.sort.join
 
-        # Appends item to array at sorted string key (creates empty array if map doesn't exist):
+        # Append item to array at sorted string key (creates empty array if map doesn't exist):
         map[sorted_string] ||= []
         map[sorted_string] << str
     end
 
-    # Returns the group of anagrams as array of all hashmap values:
+    # Return the group of anagrams as array of all hashmap values:
     map.values
 end
