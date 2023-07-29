@@ -17,10 +17,10 @@ class Solution:
             # Change the area of largest container if new container is largest:
             max_area = max(current_area, max_area)
 
-            # Move left index left if left height is smaller:
+            # Move left index right if left height is smaller:
             if height[L] < height[R]:
                 L += 1
-            # Move right index right otherwise: 
+            # Move right index left otherwise: 
             else:
                 R -= 1
 
