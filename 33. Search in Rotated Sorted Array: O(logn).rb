@@ -19,7 +19,7 @@ def search(nums, target)
         # If midpoint already is target, return it:
         return m if nums[m] == target
 
-        # If the left half of array is sorted:
+        # If left element less than or equal to midpoint, midpoint is in left half of array:
         if nums[l] <= nums[m]
             # If target is in sorted left half (between left index and midpoint), search it by updating right bound less than midpoint:
             if nums[l] <= target && target < nums[m]
@@ -28,7 +28,7 @@ def search(nums, target)
             else
                 l = m + 1
             end
-        # If the right half of array is sorted:
+        # If the left element is greater than midpoint, midpoint is in right half of array:
         else
             # If target is in sorted right half (between midpoint and right index), search it by updating left bound greater than midpoint:
             if nums[m] < target && target <= nums[r]
