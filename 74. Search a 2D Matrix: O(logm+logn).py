@@ -14,12 +14,12 @@ class Solution:
             # While row = (top + bottom) // 2 is more natural, it's prone to integer overflow.
             row = top + (bottom - top) // 2
 
-            # If target may be in bottom-half of rows, update top bound greater than mid row:
-            if matrix[row][-1] < target:
-                top = row + 1
             # If target may be in top-half of rows, update bottom bound less than mid row:
-            elif matrix[row][0] > target:
+            if matrix[row][0] > target:
                 bottom = row - 1
+            # If target may be in bottom-half of rows, update top bound greater than mid row:
+            elif matrix[row][-1] < target:
+                top = row + 1
             # Break if potential row with target is found:
             else:
                 break
@@ -36,12 +36,12 @@ class Solution:
             # Take the middle column of current binary search interval, dividing it in halves:
             M = L + (R - L) // 2
 
-            # If target is on right half of columns, update left bound greater than midpoint:
-            if matrix[row][M] < target:
-                L = M + 1
             # If target is on left half of columns, update right bound less than midpoint:
-            elif matrix[row][M] > target:
+            if matrix[row][M] > target:
                 R = M - 1
+            #If target is on right half of columns, update left bound greater than midpoint:
+            elif matrix[row][M] < target:
+                L = M + 1
             # Return true if target is found:
             else:
                 return True
