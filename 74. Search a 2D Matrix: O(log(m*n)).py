@@ -8,6 +8,7 @@ class Solution:
         m, n = len(matrix), len(matrix[0])
         L, R = 0, m * n - 1
 
+        # The loop continues until the left index is greater than the right index:
         while L <= R:
             # Take the middle of current binary search interval, dividing it in halves:
             # While M = (L + R) // 2 is more natural, it's prone to integer overflow.
