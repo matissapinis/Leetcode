@@ -7,6 +7,7 @@ class Solution:
         # Define the initial bounds of the binary search:
         L, R = 0, len(nums) - 1
 
+        # The loop continues until the left index is greater than the right index:
         while L <= R:
             # Take the middle of current binary search interval, dividing it in halves:
             # While M = (L + R) // 2 is more natural, it's prone to integer overflow.
