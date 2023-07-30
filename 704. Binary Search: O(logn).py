@@ -11,13 +11,13 @@ class Solution:
             # Take the middle of current binary search interval, dividing it in halves:
             # While M = (L + R) // 2 is more natural, it's prone to integer overflow.
             M = L + (R - L) // 2
-            
-            # If target is on right half of interval, update left bound greater than midpoint:
-            if nums[M] < target:
-                L = M + 1
+
             # If target is on left half of interval, update right bound less than midpoint:
-            elif nums[M] > target:
+            if nums[M] > target:
                 R = M - 1
+            # If target is on right half of interval, update left bound greater than midpoint:
+            elif nums[M] < target:
+                L = M + 1
             # Return the index if target is found:
             else:
                 return M
