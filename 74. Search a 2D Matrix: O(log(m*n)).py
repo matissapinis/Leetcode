@@ -16,12 +16,12 @@ class Solution:
             # Flatten 2D matrix into 1D array by using mapping from 1D midpoint to 2D indices:
             i, j = M // n, M % n
 
-            # If target is on right 1D-half of interval, update left bound greater than midpoint:
-            if matrix[i][j] < target:
-                L = M + 1
             # If target is on left 1D-half of interval, update right bound less than midpoint:
-            elif matrix[i][j] > target:
+            if matrix[i][j] > target:
                 R = M - 1
+            # If target is on right 1D-half of interval, update left bound greater than midpoint:
+            elif matrix[i][j] < target:
+                L = M + 1
             # Return true if target is found:
             else:
                 return True
