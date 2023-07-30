@@ -2,7 +2,7 @@
 Doing Leetcode problems (mostly in Python and also Ruby):
 
 # 1. https://neetcode.io/roadmap
-* Total: 13
+* Total: 14
 
 ## Arrays & Hashing:
 ### Easy:
@@ -23,7 +23,8 @@ Doing Leetcode problems (mostly in Python and also Ruby):
 ### Medium:
 * 167\. Two Sum II - Input Array Is Sorted: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted
 * 11\. Container With Most Water: https://leetcode.com/problems/container-with-most-water
-* 15\. 3Sum: https://leetcode.com/problems/3sum/
+* 15\. 3Sum: https://leetcode.com/problems/3sum
+* 33\. Search in Rotated Sorted Array: https://leetcode.com/problems/search-in-rotated-sorted-array
 
 ## Binary Search:
 ### Easy:
