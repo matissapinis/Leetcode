@@ -11,6 +11,7 @@ def search_matrix(matrix, target)
     m, n = matrix.length, matrix[0].length
     l, r = 0, m * n - 1
 
+    # The loop continues until the left index is greater than the right index:
     while l <= r
         # Take the middle of current binary search interval, dividing it in halves:
         # While m = (l + r) / 2 is more natural, it's prone to integer overflow.
