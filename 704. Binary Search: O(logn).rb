@@ -14,13 +14,13 @@ def search(nums, target)
         # Take the middle of current binary search interval, dividing it in halves:
         # While m = (l + r) / 2 is more natural, it's prone to integer overflow.
         m = l + (r - l) / 2
-        
-        # If target is on right half of interval, update left bound greater than midpoint:
-        if nums[m] < target
-            l = m + 1
+
         # If target is on left half of interval, update right bound less than midpoint:
-        elsif nums[m] > target
+        if nums[m] > target
             r = m - 1
+        # If target is on right half of interval, update left bound greater than midpoint:
+        elsif nums[m] < target
+            l = m + 1
         # Return the index if target is found:
         else
             return m
