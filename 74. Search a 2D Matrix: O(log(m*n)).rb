@@ -19,12 +19,12 @@ def search_matrix(matrix, target)
         # Flatten 2D matrix into 1D array by using mapping from 1D midpoint to 2D indices:
         i, j = m / n, m % n
 
-        # If target is on right half of interval, update left bound greater than midpoint:
-        if matrix[i][j] < target
-            l = m + 1
         # If target is on left half of interval, update right bound less than midpoint:
-        elsif matrix[i][j] > target
+        if matrix[i][j] > target
             r = m - 1
+        # If target is on right half of interval, update left bound greater than midpoint:
+        elsif matrix[i][j] < target
+            l = m + 1
         # Return true if target is found:
         else
             return true
