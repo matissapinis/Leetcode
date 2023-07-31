@@ -5,24 +5,24 @@
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         # Initialize left and right index for going through array from each side:
-        L, R = 0, len(height) - 1
+        l, r = 0, len(height) - 1
 
         max_area = 0
 
         # Go through the array until indices meet in the middle:
-        while L < R:
+        while l < r:
             # 2-D water container area is width (index difference) by height (smallest of the two):
-            current_area = (R - L) * min(height[L], height[R])
+            current_area = (r - l) * min(height[l], height[r])
 
             # Update area of largest container if new container is largest:
             max_area = max(max_area, current_area)
 
             # Move left index right if left height is smaller:
-            if height[L] < height[R]:
-                L += 1
+            if height[l] < height[r]:
+                l += 1
             # Move right index left otherwise: 
             else:
-                R -= 1
+                r -= 1
 
         # Return area of largest water container:
         return max_area
