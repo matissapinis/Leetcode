@@ -4,7 +4,7 @@
 # @param {String} s
 # @return {Integer}
 
-# O(n^2) algorithm for length of longest substring using sliding window:
+# O(n^2) algorithm for length of longest substring using sliding windows:
 def length_of_longest_substring(s)
     # Initialize left and right index for sliding window through string:
     l, r = 0, 0
