@@ -18,7 +18,7 @@ def find_min(nums)
         # If right bound is less than midpoint, minimum element is in right half, so update left bound:
         if nums[m] > nums[r]
             l = m + 1
-        # Otherwise, minimum element is in left half (including M), so update right bound:
+        # Otherwise, minimum element is in left half (including 'm'), so update right bound:
         else
             r = m
         end
