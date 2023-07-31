@@ -14,7 +14,7 @@ class Solution:
             # 2-D water container area is width (index difference) by height (smallest of the two):
             current_area = (R - L) * min(height[L], height[R])
 
-            # Change the area of largest container if new container is largest:
+            # Update area of largest container if new container is largest:
             max_area = max(max_area, current_area)
 
             # Move left index right if left height is smaller:
