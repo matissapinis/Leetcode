@@ -2,7 +2,8 @@
 Doing Leetcode problems (mostly in Python and also Ruby):
 
 # 1. https://neetcode.io/roadmap
-* Total: 14
+* Total: 15
+
 
 ## Arrays & Hashing:
 ### Easy:
@@ -16,6 +17,7 @@ Doing Leetcode problems (mostly in Python and also Ruby):
 * 128\. Longest Consecutive Sequence: https://leetcode.com/problems/longest-consecutive-sequence
 * 36\. Valid Sudoku: https://leetcode.com/problems/valid-sudoku
 
+
 ## Two Pointers:
 ### Easy:
 * 125\. Valid Palindrome: https://leetcode.com/problems/valid-palindrome
@@ -24,7 +26,7 @@ Doing Leetcode problems (mostly in Python and also Ruby):
 * 167\. Two Sum II - Input Array Is Sorted: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted
 * 11\. Container With Most Water: https://leetcode.com/problems/container-with-most-water
 * 15\. 3Sum: https://leetcode.com/problems/3sum
-* 33\. Search in Rotated Sorted Array: https://leetcode.com/problems/search-in-rotated-sorted-array
+
 
 ## Binary Search:
 ### Easy:
@@ -32,6 +34,10 @@ Doing Leetcode problems (mostly in Python and also Ruby):
 
 ### Medium:
 * 74\. Search a 2D Matrix: https://leetcode.com/problems/search-a-2d-matrix
+* 33\. Search in Rotated Sorted Array: https://leetcode.com/problems/search-in-rotated-sorted-array
+* 153\. Find Minimum in Rotated Sorted Array: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array
+
+
 
 # 2. https://leetcode.com/studyplan/top-interview-150/
 * 169\. Majority Element: https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
