@@ -20,8 +20,8 @@ def longest_consecutive(nums)
                 current_length += 1
             end
 
-            # Change the length of longest sequence if new sequence is longest: 
-            max_length = [current_length, max_length].max
+            # Update length of longest sequence if new sequence is longest: 
+            max_length = [max_length, current_length].max
         end
     end
 
