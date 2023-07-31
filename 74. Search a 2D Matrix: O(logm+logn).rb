@@ -14,7 +14,7 @@ def search_matrix(matrix, target)
     # Binary search for the row that may contain target:
     while top <= bottom
         # Take the middle row of current binary search interval, dividing it in halves:
-        # While row = (top + bottom) / 2 is more natural, it's prone to integer overflow.
+        # While row = (top + bottom) / 2 is more natural, it's prone to integer overflow (in C++ and Java).
         row = top + (bottom - top) / 2
 
         # If target may be in top-half of rows, update bottom bound less than mid row:
