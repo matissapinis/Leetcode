@@ -2,7 +2,7 @@
 Doing Leetcode problems (mostly in Python and also Ruby):
 
 # 1. https://neetcode.io/roadmap
-* Total: 18
+* Total: 19
 
 
 ## Arrays & Hashing:
@@ -49,6 +49,10 @@ Doing Leetcode problems (mostly in Python and also Ruby):
 ## Sliding window:
 ### Easy:
 * 121\. Best Time to Buy and Sell Stock: https://leetcode.com/problems/best-time-to-buy-and-sell-stock
+
+### Medium:
+* 3\. Longest Substring Without Repeating Characters: https://leetcode.com/problems/longest-substring-without-repeating-characters
+
 
 # 2. https://leetcode.com/studyplan/top-interview-150/
 * 169\. Majority Element: https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
