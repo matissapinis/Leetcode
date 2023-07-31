@@ -19,7 +19,7 @@ class Solution:
 
             # If left element less than or equal to midpoint, midpoint is in left half of array:
             if nums[L] <= nums[M]:
-                # If target is in sorted left half (between left index and midpoint), search it by updating right bound less than midpoint:
+                # If target is in sorted left half (between left bound and midpoint), search it by updating right bound less than midpoint:
                 if nums[L] <= target and target < nums[M]:
                     R = M - 1
                 # Otherwise, target must be in right half, so update left bound greater than midpoint:
@@ -27,7 +27,7 @@ class Solution:
                     L = M + 1
             # If the left element is greater than midpoint, midpoint is in right half of array:
             else:
-                # If target is in sorted right half (between midpoint and right index), search it by updating left bound greater than midpoint:
+                # If target is in sorted right half (between midpoint and right bound), search it by updating left bound greater than midpoint:
                 if nums[M] < target and target <= nums[R]: 
                     L = M + 1
                 # Otherwise, the target must be in left half, update right bound less than midpoint:
