@@ -12,7 +12,7 @@ def find_min(nums)
     # The loop continues until the left index is greater than the right index:
     while l < r
         # Take the middle of the current binary search interval, dividing it in halves:
-        # While m = (l + r) / 2 is more natural, it's prone to integer overflow.
+        # While m = (l + r) / 2 is more natural, it's prone to integer overflow (in C++ and Java).
         m = l + (r - l) / 2
 
         # If right bound is less than midpoint, minimum element is in right half, so update left bound:
