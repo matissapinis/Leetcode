@@ -17,7 +17,7 @@ def max_area(height)
         current_area = (idx_R - idx_L) * [height[idx_L], height[idx_R]].min
 
         # Change the area of largest container if new container is largest:
-        max_area = [current_area, max_area].max
+        max_area = [max_area, current_area].max
 
         # Move left index right if left height is smaller:
         if height[idx_L] < height[idx_R]
