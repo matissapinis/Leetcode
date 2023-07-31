@@ -10,7 +10,8 @@ class Solution:
         # The loop continues until the left index is greater than the right index:
         while L < R:
             # Take the middle of the current binary search interval, dividing it in halves:
-            M = (L + R) // 2
+            # While M = (L + R) // 2 is more natural, it's prone to integer overflow (in C++ and Java).
+            M = L + (R - L) // 2
 
             # If right bound is less than midpoint, minimum element is in right half, so update left bound:
             if nums[M] > nums[R]:
