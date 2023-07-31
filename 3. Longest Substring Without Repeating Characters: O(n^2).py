@@ -1,7 +1,7 @@
 # 3. Longest Substring Without Repeating Characters
 # https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 
-# O(n^2) algorithm for length of longest substring using sliding window:
+# O(n^2) algorithm for length of longest substring using sliding windows:
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         # Initialize left and right index for sliding window through string:
