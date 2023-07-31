@@ -2,7 +2,7 @@
 Doing Leetcode problems (mostly in Python and also Ruby):
 
 # 1. https://neetcode.io/roadmap
-* Total: 17
+* Total: 18
 
 
 ## Arrays & Hashing:
@@ -46,6 +46,9 @@ Doing Leetcode problems (mostly in Python and also Ruby):
 * 153\. Find Minimum in Rotated Sorted Array: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array
 
 
+## Sliding window:
+### Easy:
+* 121\. Best Time to Buy and Sell Stock: https://leetcode.com/problems/best-time-to-buy-and-sell-stock
 
 # 2. https://leetcode.com/studyplan/top-interview-150/
 * 169\. Majority Element: https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
