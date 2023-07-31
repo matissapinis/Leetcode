@@ -14,7 +14,7 @@ def search_matrix(matrix, target)
     # The loop continues until the left index is greater than the right index:
     while l <= r
         # Take the middle of current binary search interval, dividing it in halves:
-        # While m = (l + r) / 2 is more natural, it's prone to integer overflow.
+        # While m = (l + r) / 2 is more natural, it's prone to integer overflow (in C++ and Java).
         m = l + (r - l) / 2
         
         # Flatten 2D matrix into 1D array by using mapping from 1D midpoint to 2D indices:
