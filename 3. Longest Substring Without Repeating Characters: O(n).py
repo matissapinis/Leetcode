@@ -21,8 +21,11 @@ class Solution:
             # Add or update character's latest occurrence index in hashmap:
             map[s[r]] = r
 
-            # Update maximum length if new length is longest (how many characters in substring):
-            max_length = max(max_length, r - l + 1)
+            # Current length counts the number of characters in substring between bounds:
+            current_length = r - l + 1
+            
+            # Update maximum length if new length is longest:
+            max_length = max(max_length, current_length)
 
         # Return length of longest substring:
         return max_length
