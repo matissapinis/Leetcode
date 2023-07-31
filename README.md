@@ -2,7 +2,7 @@
 Doing Leetcode problems (mostly in Python and also Ruby):
 
 # 1. https://neetcode.io/roadmap
-* Total: 16
+* Total: 17
 
 
 ## Arrays & Hashing:
@@ -31,6 +31,9 @@ Doing Leetcode problems (mostly in Python and also Ruby):
 ## Stack:
 ### Easy:
 * 20\. Valid Parentheses: https://leetcode.com/problems/valid-parentheses
+
+### Medium:
+* 155\. Min Stack: https://leetcode.com/problems/min-stack
 
 
 ## Binary Search:
