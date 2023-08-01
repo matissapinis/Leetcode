@@ -2,7 +2,7 @@
 Doing Leetcode problems (mostly in Python and also Ruby):
 
 # 1. https://neetcode.io/roadmap
-* Total: 19
+* Total: 20
 
 
 ## Arrays & Hashing:
@@ -52,6 +52,7 @@ Doing Leetcode problems (mostly in Python and also Ruby):
 
 ### Medium:
 * 3\. Longest Substring Without Repeating Characters: https://leetcode.com/problems/longest-substring-without-repeating-characters
+* 567\. Permutation in String: https://leetcode.com/problems/permutation-in-string
 
 
 # 2. https://leetcode.com/studyplan/top-interview-150/
