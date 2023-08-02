@@ -36,7 +36,7 @@ class Solution:
             # Dequeue an item from queue (dequeues all strings after length greater than 2n):
             s = queue.pop(0)
             
-            # If the length of s is 2n and is valid parenthesis, add to result:
+            # If the length of s is 2n and is valid parentheses, add to result:
             if len(s) == 2 * n and valid_parentheses(s):
                 valid_strings.append(s)
             # If the length of s is less than 2n, append '(' and ')' to s and enqueue:
