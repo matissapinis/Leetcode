@@ -5,7 +5,7 @@ Doing Leetcode problems:
 
 
 # 1. https://neetcode.io/roadmap
-* Total: 22
+* Total: 23
 
 
 ## Arrays & Hashing:
@@ -38,6 +38,7 @@ Doing Leetcode problems:
 ### Medium:
 * 155\. Min Stack: https://leetcode.com/problems/min-stack
 * 22\. Generate Parentheses: https://leetcode.com/problems/generate-parentheses
+* 739\. Daily Temperatures: https://leetcode.com/problems/daily-temperatures
 
 
 ## Binary Search:
