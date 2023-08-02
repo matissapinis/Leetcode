@@ -2,7 +2,7 @@
 Doing Leetcode problems (mostly in Python and also Ruby):
 
 # 1. https://neetcode.io/roadmap
-* Total: 20
+* Total: 21
 
 
 ## Arrays & Hashing:
@@ -44,6 +44,7 @@ Doing Leetcode problems (mostly in Python and also Ruby):
 * 74\. Search a 2D Matrix: https://leetcode.com/problems/search-a-2d-matrix
 * 33\. Search in Rotated Sorted Array: https://leetcode.com/problems/search-in-rotated-sorted-array
 * 153\. Find Minimum in Rotated Sorted Array: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array
+* 875\. Koko Eating Bananas: https://leetcode.com/problems/koko-eating-bananas
 
 
 ## Sliding window:
