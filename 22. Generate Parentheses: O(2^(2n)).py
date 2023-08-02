@@ -9,7 +9,7 @@ class Solution:
         valid_strings = []
 
         # O(n) algorithm for checking balanced parentheses using stack (from 20. Valid Parentheses):
-        def valid_parenthesis(s):
+        def valid_parentheses(s):
             # Initialize an empty stack:
             stack = []
 
@@ -37,7 +37,7 @@ class Solution:
             s = queue.pop(0)
             
             # If the length of s is 2n and is valid parenthesis, add to result:
-            if len(s) == 2 * n and valid_parenthesis(s):
+            if len(s) == 2 * n and valid_parentheses(s):
                 valid_strings.append(s)
             # If the length of s is less than 2n, append '(' and ')' to s and enqueue:
             elif len(s) < 2 * n:
