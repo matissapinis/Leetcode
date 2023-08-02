@@ -36,5 +36,4 @@ def check_inclusion(s1, s2)
         # If went through all windows without match, return false:
         return count_s1 == count_s2
 end
-
 # O(n + m) = O(n) (initial counts) + O(n) (first window in s2) + O(m - n) (remaining iterations over s2).
