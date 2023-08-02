@@ -1,7 +1,7 @@
 # 22. Generate Parentheses
 # https://leetcode.com/problems/generate-parentheses/description/
 
-# Brute force O(2^(2n)) algorithm for generating well-formed parentheses from all strings:
+# Brute force O(2^(2n) * n) algorithm for generating well-formed parentheses from all strings:
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         # Initialize queue that will hold all possible strings length 1 to 2n:
