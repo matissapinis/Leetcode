@@ -32,7 +32,7 @@ end
 # @param {Integer} n
 # @return {String[]}
 
-# Brute force O(2^(2n)) algorithm for generating well-formed parentheses from all strings:
+# Brute force O(2^(2n) * n) algorithm for generating well-formed parentheses from all strings:
 def generate_parenthesis(n)
     # Initialize queue that will hold all possible strings length 1 to 2n:
     queue = ['']
