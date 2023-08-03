@@ -15,7 +15,7 @@ def top_k_frequent(nums, k)
         map[num] += 1
     end
 
-    # Sorts key-value pairs by values (biggest to lowest) and returns array of k largest values:
+    # Sorts key-value pairs by values (largest to smallest) and returns array of k largest values:
     sorted_items = map.sort_by { |key, value| -value }[0...k]
 
     # Returns array of keys from these top k key-value pairs:
