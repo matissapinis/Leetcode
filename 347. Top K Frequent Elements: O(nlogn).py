@@ -10,7 +10,7 @@ class Solution:
         for i in range(len(nums)):
             map[nums[i]] = map.get(nums[i], 0) + 1
 
-        # Sorts key-value pairs by values (biggest to lowest) and returns array of k largest values:
+        # Sorts key-value pairs by values (largest to smallest) and returns array of k largest values:
         sorted_items = sorted(map.items(), key=lambda x: x[1], reverse=True)[:k]
         
         # Returns array of keys from these top k key-value pairs:
