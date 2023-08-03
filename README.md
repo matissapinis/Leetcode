@@ -62,5 +62,11 @@ Doing Leetcode problems:
 
 
 # 2. https://leetcode.com/studyplan/top-interview-150/
+
+
+### Easy:
+* 27\. Remove Element: https://leetcode.com/problems/remove-element/?envType=study-plan-v2&envId=top-interview-150
 * 169\. Majority Element: https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
+
+### Medium:
 * 189\. Rotate Array: https://leetcode.com/problems/rotate-array/description/?envType=study-plan-v2&envId=top-interview-150
