@@ -5,7 +5,7 @@ Doing Leetcode problems:
 
 
 # 1. https://neetcode.io/roadmap
-* Total: 23
+* Total count: 23
 
 
 ## Arrays & Hashing:
@@ -62,7 +62,7 @@ Doing Leetcode problems:
 
 
 # 2. https://leetcode.com/studyplan/top-interview-150/
-* Additional total: 4
+* Additional count: 4
 
 ### Easy:
 * 27\. Remove Element: https://leetcode.com/problems/remove-element/?envType=study-plan-v2&envId=top-interview-150
