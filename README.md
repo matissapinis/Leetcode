@@ -62,7 +62,7 @@ Doing Leetcode problems:
 
 
 # 2. https://leetcode.com/studyplan/top-interview-150/
-* Additional count: 7
+* Additional count: 9
 
 ### Easy:
 * 27\. Remove Element: https://leetcode.com/problems/remove-element/?envType=study-plan-v2&envId=top-interview-150
