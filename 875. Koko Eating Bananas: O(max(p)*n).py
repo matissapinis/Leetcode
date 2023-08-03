@@ -5,7 +5,7 @@
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
         k_minimum = max(piles)
-        # Iterate from down from biggest k to check if can eat all piles in h hours:
+        # Iterate from down from largest k to check if can eat all piles in h hours:
         for k in range(max(piles), 0, -1):
             total_time = 0
             # Each pile takes ⌈p / k⌉ hours (i.e., rounded up):
