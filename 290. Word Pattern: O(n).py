@@ -35,7 +35,7 @@ class Solution:
         # Put last word into hashmap since it doesn't have trailing spaces:
         indices_s[word] = indices_s.get(word, []) + [word_number]
 
-        # No bijection if size of sets is no the same:
+        # No bijection if size of sets is not the same:
         if len(indices_pattern.values()) != len(indices_s.values()):
             return False
 
