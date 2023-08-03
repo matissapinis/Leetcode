@@ -8,7 +8,7 @@
 # O(max(p) * n) algorithm for finding minimum k bananas per hour to eat n piles of bananas (exceeds memory limit:
 def min_eating_speed(piles, h)
     k_minimum = piles.max
-    # Iterate from down from biggest k to check if can eat all piles in h hours:
+    # Iterate from down from largest k to check if can eat all piles in h hours:
     for k in (1..piles.max).to_a.reverse
         total_time = 0
         # Each pile takes ⌈p / k⌉ hours (i.e., rounded up):
