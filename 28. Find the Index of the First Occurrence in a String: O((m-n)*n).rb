@@ -5,7 +5,7 @@
 # @param {String} needle
 # @return {Integer}
 
-# Trivial O((m - n) * n) algorithm for finding index of first occuring substring:
+# Brute force O((m - n) * n) algorithm for finding index of first occuring substring:
 def str_str(haystack, needle)
     m = haystack.length
     n = needle.length
