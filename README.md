@@ -69,6 +69,7 @@ Doing Leetcode problems:
 * 169\. Majority Element: https://leetcode.com/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150
 * 88\. Merge Sorted Array: https://leetcode.com/problems/merge-sorted-array/?envType=study-plan-v2&envId=top-interview-150
 * 58\. Length of Last Word: https://leetcode.com/problems/length-of-last-word/?envType=study-plan-v2&envId=top-interview-150
+* 28\. Find the Index of the First Occurrence in a String: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/?envType=study-plan-v2&envId=top-interview-150
 
 
 ### Medium:
