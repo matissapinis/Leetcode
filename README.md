@@ -1,7 +1,7 @@
 # Leetcode
 Doing Leetcode problems:
 * In both Python and Ruby with equivalent solutions (with Python as main language).
-* Includes additional solutions with worse complexities for learning value (including if exceeding problem limits).
+* Includes additional solutions with worse complexities for learning value (including if exceeds problem limits).
 
 
 # 1. https://neetcode.io/roadmap
