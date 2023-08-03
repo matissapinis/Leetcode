@@ -24,5 +24,6 @@ class Solution:
             else:
                 nums1[i] = nums2[r]
                 r -= 1
+                
             # Move right to the next position (until the merged array is sorted):
             i -= 1
