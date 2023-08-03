@@ -5,7 +5,7 @@
 # @param {Integer} val
 # @return {Integer}
 
-# O(n^2) algorithm for removing element instances then returning size of remaining array:
+# Trivial O(n^2) algorithm for removing element instances then returning size of remaining array:
 def remove_element(nums, val)
     # As long as value in array, keep removing its instances:
     while nums.include?(val)
