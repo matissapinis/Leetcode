@@ -62,12 +62,13 @@ Doing Leetcode problems:
 
 
 # 2. https://leetcode.com/studyplan/top-interview-150/
-* Additional count: 4
+* Additional count: 5
 
 ### Easy:
 * 27\. Remove Element: https://leetcode.com/problems/remove-element/?envType=study-plan-v2&envId=top-interview-150
-* 169\. Majority Element: https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
+* 169\. Majority Element: https://leetcode.com/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150
 * 88\. Merge Sorted Array: https://leetcode.com/problems/merge-sorted-array/?envType=study-plan-v2&envId=top-interview-150
+* 58\. Length of Last Word: https://leetcode.com/problems/length-of-last-word/?envType=study-plan-v2&envId=top-interview-150
 
 
 ### Medium:
