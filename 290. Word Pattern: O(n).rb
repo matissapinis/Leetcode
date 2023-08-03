@@ -26,7 +26,7 @@ def word_pattern(pattern, s)
         indices_s[word] << index
     end
 
-    # No bijection if size of sets is no the same:
+    # No bijection if size of sets is not the same:
     return false if indices_pattern.values.length != indices_s.values.length
 
     # Iterate and compare values of the two hashmaps – return false if bijection ruined:
