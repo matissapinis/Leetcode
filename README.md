@@ -83,3 +83,10 @@ Doing Leetcode problems:
 
 ### Medium:
 * 189\. Rotate Array: https://leetcode.com/problems/rotate-array/description/?envType=study-plan-v2&envId=top-interview-150
+
+# 3. https://leetcode.com/studyplan/leetcode-75/
+* Additional count: 1
+
+### Easy:
+* 1768\. Merge Strings Alternately: https://leetcode.com/problems/merge-strings-alternately/?envType=study-plan-v2&envId=leetcode-75
+
