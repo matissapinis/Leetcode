@@ -75,6 +75,7 @@ Doing Leetcode problems:
 * 9\. Palindrome Number: https://leetcode.com/problems/palindrome-number/?envType=study-plan-v2&envId=top-interview-150
 * 290\. Word Pattern: https://leetcode.com/problems/word-pattern/?envType=study-plan-v2&envId=top-interview-150
 * 205\. Isomorphic Strings: https://leetcode.com/problems/isomorphic-strings/?envType=study-plan-v2&envId=top-interview-150
+* 383\. Ransom Note: https://leetcode.com/problems/ransom-note/?envType=study-plan-v2&envId=top-interview-150
   
 
 ### Medium:
