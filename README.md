@@ -62,7 +62,7 @@ Doing Leetcode problems:
 
 
 # 2. https://leetcode.com/studyplan/top-interview-150/
-* Additional count: 13
+* Additional count: 14
 
 ### Easy:
 * 27\. Remove Element: https://leetcode.com/problems/remove-element/?envType=study-plan-v2&envId=top-interview-150
@@ -77,6 +77,7 @@ Doing Leetcode problems:
 * 205\. Isomorphic Strings: https://leetcode.com/problems/isomorphic-strings/?envType=study-plan-v2&envId=top-interview-150
 * 383\. Ransom Note: https://leetcode.com/problems/ransom-note/?envType=study-plan-v2&envId=top-interview-150
 * 228\. Summary Ranges: https://leetcode.com/problems/summary-ranges/?envType=study-plan-v2&envId=top-interview-150
+* 26\. Remove Duplicates from Sorted Array: https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=study-plan-v2&envId=top-interview-150
   
 
 ### Medium:
