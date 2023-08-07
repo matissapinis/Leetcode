@@ -93,6 +93,7 @@ Doing Leetcode problems:
 * 283\. Move Zeroes: https://leetcode.com/problems/move-zeroes/?envType=study-plan-v2&envId=leetcode-75
 * 345\. Reverse Vowels of a String: https://leetcode.com/problems/reverse-vowels-of-a-string/?envType=study-plan-v2&envId=leetcode-75
 * 1207\. Unique Number of Occurrences: https://leetcode.com/problems/unique-number-of-occurrences/?envType=study-plan-v2&envId=leetcode-75
+* 643\. Maximum Average Subarray I: https://leetcode.com/problems/maximum-average-subarray-i/?envType=study-plan-v2&envId=leetcode-75
 
 ### Medium:
 * 151\. Reverse Words in a String: # https://leetcode.com/problems/reverse-words-in-a-string/?envType=study-plan-v2&envId=leetcode-75
