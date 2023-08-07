@@ -85,10 +85,10 @@ Doing Leetcode problems:
 * 189\. Rotate Array: https://leetcode.com/problems/rotate-array/description/?envType=study-plan-v2&envId=top-interview-150
 
 # 3. https://leetcode.com/studyplan/leetcode-75/
-* Additional count: 2
+* Additional count: 4
 
 ### Easy:
 * 1768\. Merge Strings Alternately: https://leetcode.com/problems/merge-strings-alternately/?envType=study-plan-v2&envId=leetcode-75
 * 1431\. Kids With the Greatest Number of Candies:  https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/?envType=study-plan-v2&envId=leetcode-75
 * 283\. Move Zeroes: https://leetcode.com/problems/move-zeroes/?envType=study-plan-v2&envId=leetcode-75
-
+* 345\. Reverse Vowels of a String: https://leetcode.com/problems/reverse-vowels-of-a-string/?envType=study-plan-v2&envId=leetcode-75
