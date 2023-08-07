@@ -90,4 +90,5 @@ Doing Leetcode problems:
 ### Easy:
 * 1768\. Merge Strings Alternately: https://leetcode.com/problems/merge-strings-alternately/?envType=study-plan-v2&envId=leetcode-75
 * 1431\. Kids With the Greatest Number of Candies:  https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/?envType=study-plan-v2&envId=leetcode-75
+* 283\. Move Zeroes: https://leetcode.com/problems/move-zeroes/?envType=study-plan-v2&envId=leetcode-75
 
