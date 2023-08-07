@@ -1,12 +1,12 @@
 # 1207. Unique Number of Occurrences
 # https://leetcode.com/problems/unique-number-of-occurrences/description/?envType=study-plan-v2&envId=leetcode-75
 
-# O(n) algorithm for whether number of occurences is unique for each array element:
+# O(n) algorithm for whether number of occurrences is unique for each array element:
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
         counts, metacounts = {}, {}
 
-        # Create a hashmap for number of occurences for each element:
+        # Create a hashmap for number of occurrences for each element:
         for i in range(len(arr)):
             counts[arr[i]] = counts.get(arr[i], 0) + 1
 
