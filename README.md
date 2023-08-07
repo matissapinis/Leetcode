@@ -85,7 +85,7 @@ Doing Leetcode problems:
 * 189\. Rotate Array: https://leetcode.com/problems/rotate-array/description/?envType=study-plan-v2&envId=top-interview-150
 
 # 3. https://leetcode.com/studyplan/leetcode-75/
-* Additional count: 5
+* Additional count: 6
 
 ### Easy:
 * 1768\. Merge Strings Alternately: https://leetcode.com/problems/merge-strings-alternately/?envType=study-plan-v2&envId=leetcode-75
@@ -93,3 +93,6 @@ Doing Leetcode problems:
 * 283\. Move Zeroes: https://leetcode.com/problems/move-zeroes/?envType=study-plan-v2&envId=leetcode-75
 * 345\. Reverse Vowels of a String: https://leetcode.com/problems/reverse-vowels-of-a-string/?envType=study-plan-v2&envId=leetcode-75
 * 1207\. Unique Number of Occurrences: https://leetcode.com/problems/unique-number-of-occurrences/?envType=study-plan-v2&envId=leetcode-75
+
+### Medium:
+* 151\. Reverse Words in a String: # https://leetcode.com/problems/reverse-words-in-a-string/?envType=study-plan-v2&envId=leetcode-75
