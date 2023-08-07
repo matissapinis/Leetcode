@@ -8,7 +8,7 @@
 # Brute force O(n^2) algorithm for maximum average value of contiguous k-subarrays (exceeds time limit):
 def find_max_average(nums, k)
     # Initialize maximum average as smallest possible value:
-    max_average = -1.0/0 # Represents negative infinity in Ruby
+    max_average = -1.0/0
 
     # Iterate through all contiguous subarrays by slicing:
     for i in 0..(nums.length - k)
