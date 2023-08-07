@@ -6,6 +6,8 @@ class Solution:
     def reverseWords(self, s: str) -> str:
         word = ""
         word_list = []
+
+        # Iterate through string, creating a list of words in it:
         for i in range(len(s)):
             # Add words between spaces into list:
             if s[i] == ' ' and len(word) > 0:
