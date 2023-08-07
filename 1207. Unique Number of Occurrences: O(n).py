@@ -19,5 +19,5 @@ class Solution:
             if len(i) > 1:
                 return False
 
-        # If all elements have difference occurence rates, return true:
+        # If all elements have difference occurrence rates, return true:
         return True
