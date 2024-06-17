@@ -1,6 +1,6 @@
 # Leetcode
 Doing Leetcode problems:
-* In both Python and Ruby with equivalent solutions (with Python as main language).
+* In both Python and Ruby (sometimes also Rust) with equivalent solutions (with Python as main language).
 * Includes additional solutions with worse complexities for learning value (including if exceeds problem limits).
 
 
